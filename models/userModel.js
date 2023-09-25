@@ -4,11 +4,12 @@ const userShema = mongoose.Schema({
   name: {
     type: String,
     required: [true, 'Enter a nick-name'],
-    unique: true,
+    unique: false,
   },
   score: {
     type: Number,
     required: true,
+    unique: false,
     default: 0,
   },
 });
