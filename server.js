@@ -32,11 +32,15 @@ mongoose
 app.use(express.json());
 app.use(
   cors({
-    origin: [, 'http://192.168.1.5:5500', 'http://192.168.1.6:5500', 'http://192.168.1.7:5500'],
+    origin: [
+      ,
+      'http://192.168.1.5:5500',
+      'http://192.168.1.6:5500',
+      'http://192.168.1.7:5500',
+      'https://nhnerd.github.io/Flappy-Bald/',
+    ],
   })
 );
-
-// routes
 
 // Get All users
 app.get('/users', async (req, res) => {
