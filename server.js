@@ -37,6 +37,7 @@ app.use(
       'http://192.168.1.5:5500',
       'http://192.168.1.6:5500',
       'http://192.168.1.7:5500',
+      'https://nhnerd.github.io',
       'https://nhnerd.github.io/Flappy-Bald/',
       'https://nhnerd.github.io/Flappy-Bald',
     ],
